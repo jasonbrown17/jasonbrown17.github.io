@@ -33,11 +33,11 @@ contact_settings:
   send_button_text: 'Send Message'
 
 social_settings:
-  facebook_url: ''
+  facebook_url: 'https://www.facebook.com/jasonbrown17'
   twitter_url: 'https://twitter.com/jasonbrown17'
   instagram_url: ''
   snapchat_url: ''
-  youtube_url: ''
+  youtube_url: 'https://www.youtube.com/channel/UCfT-hm4bhavIEG5X4aHHryA/videos?view_as=subscriber'
   google-plus_url: ''
   vimeo_url: ''
   pinterest_url: ''
