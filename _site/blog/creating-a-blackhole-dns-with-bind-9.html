@@ -27,12 +27,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Creating a Blackhole DNS with Bind 9 – Jason Brown">
 	<meta name="twitter:description" content="">
-	<meta name="twitter:image:src" content="">
+	<meta name="twitter:image:src" content="/images/blog/bind9.png">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="Creating a Blackhole DNS with Bind 9 – Jason Brown" />
 	<meta property="og:description" content="" />
-	<meta property="og:image" content="" />
+	<meta property="og:image" content="/images/blog/bind9.png" />
 
 	
 	<!-- Font Embed Code -->
@@ -122,7 +122,7 @@
 
 			<section class="hero hero--single">
 
-	<div class="hero__image" style="background-image: url()">
+	<div class="hero__image" style="background-image: url(/images/blog/bind9.png)">
 		<div class="hero__overlay"></div>
 	</div>
 
@@ -141,7 +141,9 @@
 
 		<article class="single-post">
 
-			<p>Malware can be delivered many different ways from either advertisements (remember the NY Times malicous ads?) to hacked websites that contain malicious code.  One technique designed to help curb these infections is through the use of DNS blackhole.  This technique will redirect your internal users to an internal website to block their access.  To do so, first install Bind on your Linux server.  Then edit your named.conf file which should be located in /etc/bind and enter:</p>
+			<p><img src="/images/blog/bind9.png" alt="" /></p>
+
+<p>Malware can be delivered many different ways from either advertisements (remember the NY Times malicous ads?) to hacked websites that contain malicious code.  One technique designed to help curb these infections is through the use of DNS blackhole.  This technique will redirect your internal users to an internal website to block their access.  To do so, first install Bind on your Linux server.  Then edit your named.conf file which should be located in /etc/bind and enter:</p>
 
 <p><code class="highlighter-rouge">include ""/etc/named/blackhole.conf";</code></p>
 

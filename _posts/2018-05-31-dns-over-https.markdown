@@ -2,7 +2,10 @@
 layout: post
 title:  "DNS Over HTTPS"
 categories: DNS HTTPS
+featured_image: '/images/blog/cloudflare.gif'
 ---
+
+![](/images/blog/cloudflare.gif)
 
 ### How does DNS work?
 

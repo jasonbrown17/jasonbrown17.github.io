@@ -2,7 +2,10 @@
 layout: post
 title:  "The Need for Better Transparency"
 categories: Tor CIA
+featured_image: '/images/blog/google.png'
 ---
+
+![](/images/blog/google.png)
 
 ### The Need for Better Transparency
 

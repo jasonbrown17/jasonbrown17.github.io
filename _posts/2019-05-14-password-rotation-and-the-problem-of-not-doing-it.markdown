@@ -2,7 +2,10 @@
 layout: post
 title:  "Password Rotation and the Problem of Not Doing It"
 categories: Passwords Privacy Security
+featured_image: '/images/blog/access-control-lock.png'
 ---
+
+![](/images/blog/access-control-lock.png)
 
 Since the release of NIST SP 800-63-3 I have been asked, “Why does our company still perform password rotation?” This question is easier said than done. It is one that requires user awareness training, implementation of auditing and alerting software, and most importantly – multifactor authentication. All of which are necessary, though it can take months to years to implement depending on a companies resources and regulatory requirements.
 

@@ -2,7 +2,10 @@
 layout: post
 title:  "Creating a Blackhole DNS with Bind 9"
 categories: DNS
+featured_image: '/images/blog/bind9.png'
 ---
+
+![](/images/blog/bind9.png)
 
 Malware can be delivered many different ways from either advertisements (remember the NY Times malicous ads?) to hacked websites that contain malicious code.  One technique designed to help curb these infections is through the use of DNS blackhole.  This technique will redirect your internal users to an internal website to block their access.  To do so, first install Bind on your Linux server.  Then edit your named.conf file which should be located in /etc/bind and enter:
 

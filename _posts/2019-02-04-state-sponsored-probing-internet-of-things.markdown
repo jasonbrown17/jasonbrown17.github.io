@@ -2,7 +2,10 @@
 layout: post
 title:  "State Sponsored Probing Internet of Things Devices"
 categories: IoT Japan
+featured_image: '/images/blog/iot.png'
 ---
+
+![](/images/blog/iot.png)
 
 In order to beef up security of consumer based Internet of Things devices, [Japan will now scan IoT devices within its borders][japan-iot]. Beginning mid-February, the National Institute of Information and Communications Technology will attempt to break into an estimated 200 million devices. The institute has compiled a list of generic usernames and passwords commonly used by manufacturers for default login credentials. Is this a good thing?
 

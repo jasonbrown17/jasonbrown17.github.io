@@ -2,7 +2,10 @@
 layout: post
 title:  "The Clarifying Lawful Overseas Use of Data (CLOUD) Act"
 categories: Privacy CLOUD Act
+featured_image: '/images/blog/cloudact.png'
 ---
+
+![](/images/blog/cloudact.png)
 
 On March 23, 2018 President Trump signed a $1.3 Trillion dollar spending bill to keep the US government from shutting down. In that spending bill, congress snuck in The Clarifying Lawful Overseas Use of Data (CLOUD) Act. The premise of the CLOUD Act is widely overreaching in that it allows the US Government to access data which resides in foreign countries. According to the Electronic Freedom Foundation the act will allow:
 

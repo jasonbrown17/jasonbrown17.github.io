@@ -2,7 +2,10 @@
 layout: post
 title:  "Russian Hackers Targeting US and UK Critical Infrastructure"
 categories: Security
+featured_image: '/images/blog/russia.jpg'
 ---
+
+![](/images/blog/russia.jpg)
 
 Over the last few weeks, Russian hackers have coordinated attacks against personal, government, corporations, and Internet Service Providers. These attacks are currently being directed toward IoT devices, home based modems, and corporate routers, switches and firewalls. This is in an attempt to create an organized attack against the US and UK and potentially bring down critical infrastructure.
 

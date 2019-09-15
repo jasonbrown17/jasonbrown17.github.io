@@ -2,7 +2,10 @@
 layout: post
 title:  "Facebook Exposes Millions of Passwords in Clear Text"
 categories: Facebook Passwords Clear Text
+featured_image: '/images/blog/facebook.jpg'
 ---
+
+![](/images/blog/facebook.jpg)
 
 Facebook has been under the spot light for quite some time now for its poor security and privacy practices. With this latest privacy blunder, its obvious that the company has not learned from its past. Last week it was uncovered that the company is storing passwords in clear text. This not only affects Facebook users, but InstaGram users too. It was not revealed as to why these passwords were stored in clear text, however what is known is that it affects millions of the company’s users.
 

@@ -2,7 +2,10 @@
 layout: post
 title:  "The California Consumer Privacy Act and The .US Domain"
 categories: Privacy CCPA
+featured_image: '/images/blog/CCPA-logo.jpg'
 ---
+
+![](/images/blog/CCPA-logo.jpg)
 
 As I start this off I would be remiss to state that yes, I have a .us domain, however so do many Americans. You see, the .us top level domain (TLD) is only available to those who reside within the United States. There are other requirements too such as keeping your WHOIS records up to date. Ensuring that WHOIS records show that those who register a .us domain reside within the US. The major downfall to that is the fact that you cannot purchase privacy protections for your domain. So all of you who have purchased .com, .net, .org and so on have those privacy protections available. But not for .us domains. In fact, .at, .be, .ca, .cn, .cx, .de, .eu, .pl, .pro, and .tw TLD’s do not have those protections either – but that is different story for a different day. What makes the .us TLD so important?
 
