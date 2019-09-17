@@ -30,7 +30,7 @@
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description }}" />
 	<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
-  {% seo %}
+
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
 	{{ site.data.settings.font_settings.font_embed }}
