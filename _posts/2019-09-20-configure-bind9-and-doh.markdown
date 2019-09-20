@@ -5,7 +5,7 @@ categories: Privacy DNS HTTPS TLS
 featured_image: '/images/blog/dns.jpg'
 ---
 
-![](/images/blog/dns.jpg)
+![DNS over HTTPS Code](/images/blog/dns.jpg)
 
 Privacy and security professionals have been pushing for encryption of internet traffic for many years now. Not only has there been a significant push from the privacy community, search engine giants like Google almost force websites to use encryption to increase search engine optimization (SEO) to drive higher results. Though the costs of purchasing Transport Layer Encryption (TLS) can be quite expensive, open source projects such as [Let’s Encrypt][letsenc] allow anyone to create a publicly acceptable TLS certificate for free. These certificates are accepted by major browsers, without throwing warnings, and protects the privacy of the user accessing the site. This only resolves half of the problem.
 

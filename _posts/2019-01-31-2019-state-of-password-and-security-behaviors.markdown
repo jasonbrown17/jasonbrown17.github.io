@@ -5,7 +5,7 @@ categories: Password Yubico
 featured_image: '/images/blog/yubico.png'
 ---
 
-![](/images/blog/yubico.png)
+![Yubico Study](/images/blog/yubico.png)
 
 This year Yubico teamed up with the Ponemon Institute to deliver the 2019 State of Password and Authentication Security Behaviors report. The report was sampled from around 15,000 participants from around the globe which touched on topics which included privacy and security. The report depicts the grim reality of which we still live in today with regards to passwords and their use. For instance, 69% of respondents share passwords with their co-workers. That number equates to 10,350 of the 15,000 people who responded to the survey. Other statistics show:
 

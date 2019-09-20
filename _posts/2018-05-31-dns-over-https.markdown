@@ -5,7 +5,7 @@ categories: DNS HTTPS
 featured_image: '/images/blog/cloudflare.gif'
 ---
 
-![](/images/blog/cloudflare.gif)
+![Cloudflare 1.1.1.1](/images/blog/cloudflare.gif)
 
 ### How does DNS work?
 

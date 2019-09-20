@@ -5,7 +5,7 @@ categories: Hacks Security Universities
 featured_image: '/images/blog/fbi-wanted.jpeg'
 ---
 
-![](/images/blog/fbi-wanted.jpeg)
+![Iranians FBI Most Wanted Poster](/images/blog/fbi-wanted.jpeg)
 
 It was just announced today that 9 Iranians were involved in hacking 144 universities. They targeted professors and research departments in order to gain access to vital intel. In today’s realm of cybersecurity this does not surprise me. Many small to even larger institutions do not adequately protect they’re network, most do not even have a border firewall. These institutions fully trust their entire network, from the student and the business side. This is the wrong way of protecting your institution from these types of attacks. Yes, a border firewall is needed in order to block unsolicited or malicious traffic coming into the network. However this is not the Rosetta stone security professionals think of when protecting their business from cyber attacks. As our societies become borderless with companies moving to the cloud in addition to a very mobile workforce, we must take other considerations into account. These primarily include identity and access management and the move away from role based access control to attribute based.
 

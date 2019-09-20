@@ -5,7 +5,7 @@ categories: Tor CIA
 featured_image: '/images/blog/google.png'
 ---
 
-![](/images/blog/google.png)
+![Google+ Logo](/images/blog/google.png)
 
 ### The Need for Better Transparency
 
