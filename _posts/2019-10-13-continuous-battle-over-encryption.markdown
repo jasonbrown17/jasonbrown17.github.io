@@ -9,7 +9,7 @@ featured_image: '/images/blog/encrypt-your-data.png'
 
 ### Privacy vs. Services
 
-The NCTA, CTIA, and US Telecom recently sent a [letter][onct] to congress with concerns over Google's implementation of the DNS over HTTPS protocol. In the letter the companies state that internet service providers provide functionality including, "(a) the provision of parental controls and IoT management for end users; (b) connecting end users to the nearest content delivery networks, thus ensuring the delivery of content in the fastest, cheapest, and most reliable manner; (c) assisting rights holders' and law enforcement's efforts in enforcing judicial orders in combatting online privacy, as well as law enforcement's efforts in enforcing judicial orders in combatting the exploitation of minors." (pg. 3).
+The NCTA, CTIA, and US Telecom recently sent an open [letter][onct] to congress with concerns over Google's implementation of the DNS over HTTPS protocol. In the letter the companies state that internet service providers provide functionality including, "(a) the provision of parental controls and IoT management for end users; (b) connecting end users to the nearest content delivery networks, thus ensuring the delivery of content in the fastest, cheapest, and most reliable manner; (c) assisting rights holders' and law enforcement's efforts in enforcing judicial orders in combatting online privacy, as well as law enforcement's efforts in enforcing judicial orders in combatting the exploitation of minors." (pg. 3).
 
 ### Monopolizing on DNS
 
