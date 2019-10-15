@@ -48,11 +48,12 @@ sass:
 plugins_dir:
   - jekyll-paginate
 
+url: "https://jasonbrown.us"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+  - github-pages
 
 paginate: 5
 paginate_path: "/blog/page:num/"
-gems:
-  - jekyll-paginate
