@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Bind9 and DNS-over-HTTPS"
+date: "2019-09-20 00:00:00 -0400"
 categories: Privacy DNS HTTPS TLS
-featured_image: '/images/blog/dns.jpg'
+featured_image: "/images/blog/dns.jpg"
 ---
 
 ![DNS over HTTPS Code](/images/blog/dns.jpg)

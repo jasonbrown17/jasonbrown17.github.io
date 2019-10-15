@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating a Blackhole DNS with Bind 9"
 categories: DNS
-featured_image: '/images/blog/bind9.png'
+featured_image: "/images/blog/bind9.png"
 ---
 
 ![Bind9 Logo](/images/blog/bind9.png)

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Password Rotation and the Problem of Not Doing It"
+date: "2019-05-14 00:00:00 -0400"
 categories: Passwords Privacy Security
-featured_image: '/images/blog/access-control-lock.png'
+featured_image: "/images/blog/access-control-lock.png"
 ---
 
 ![Password Pad Lock](/images/blog/access-control-lock.png)

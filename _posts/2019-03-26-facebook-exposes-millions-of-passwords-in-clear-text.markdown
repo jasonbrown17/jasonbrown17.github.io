@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Facebook Exposes Millions of Passwords in Clear Text"
+date: "2019-03-26 00:00:00 -0400"
 categories: Facebook Passwords Clear Text
-featured_image: '/images/blog/facebook.jpg'
+featured_image: "/images/blog/facebook.jpg"
 ---
 
 ![Facebook Crowd](/images/blog/facebook.jpg)

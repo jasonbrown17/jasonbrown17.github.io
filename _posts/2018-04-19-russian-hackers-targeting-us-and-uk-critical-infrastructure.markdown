@@ -2,7 +2,7 @@
 layout: post
 title:  "Russian Hackers Targeting US and UK Critical Infrastructure"
 categories: Security
-featured_image: '/images/blog/russia.jpg'
+featured_image: "/images/blog/russia.jpg"
 ---
 
 ![Vladimir Putin](/images/blog/russia.jpg)

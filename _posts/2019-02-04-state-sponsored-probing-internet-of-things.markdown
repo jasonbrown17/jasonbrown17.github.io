@@ -2,7 +2,7 @@
 layout: post
 title:  "State Sponsored Probing Internet of Things Devices"
 categories: IoT Japan
-featured_image: '/images/blog/iot.png'
+featured_image: "/images/blog/iot.png"
 ---
 
 ![Internet of Things](/images/blog/iot.png)

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "The California Consumer Privacy Act and The .US Domain"
+date: "2019-05-25 00:00:00 -0400"
 categories: Privacy CCPA
-featured_image: '/images/blog/CCPA-logo.jpg'
+featured_image: "/images/blog/CCPA-logo.jpg"
 ---
 
 ![CCPA Logo](/images/blog/CCPA-logo.jpg)

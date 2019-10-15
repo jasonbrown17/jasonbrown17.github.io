@@ -2,7 +2,7 @@
 layout: post
 title:  "DNS Over HTTPS"
 categories: DNS HTTPS
-featured_image: '/images/blog/cloudflare.gif'
+featured_image: "/images/blog/cloudflare.gif"
 ---
 
 ![Cloudflare 1.1.1.1](/images/blog/cloudflare.gif)

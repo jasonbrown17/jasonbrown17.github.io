@@ -2,7 +2,7 @@
 layout: post
 title:  "Us Targets 9 Iranians Over University Hacks"
 categories: Hacks Security Universities
-featured_image: '/images/blog/fbi-wanted.jpeg'
+featured_image: "/images/blog/fbi-wanted.jpeg"
 ---
 
 ![Iranians FBI Most Wanted Poster](/images/blog/fbi-wanted.jpeg)

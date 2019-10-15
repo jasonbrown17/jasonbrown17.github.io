@@ -2,7 +2,7 @@
 layout: post
 title:  "2019 State of Password and Security Behaviors"
 categories: Password Yubico
-featured_image: '/images/blog/yubico.png'
+featured_image: "/images/blog/yubico.png"
 ---
 
 ![Yubico Study](/images/blog/yubico.png)

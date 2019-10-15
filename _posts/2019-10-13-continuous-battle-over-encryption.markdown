@@ -2,7 +2,8 @@
 layout: post
 title:  "Continuous Battle Over Encryption"
 categories: Privacy DNS HTTPS TLS Facebook Encryption
-featured_image: '/images/blog/encrypt-your-data.png'
+date: "2019-10-13 00:00:00 -0400"
+featured_image: "/images/blog/encrypt-your-data.png"
 ---
 
 ![Encrypt Your Data](/images/blog/encrypt-your-data.png)

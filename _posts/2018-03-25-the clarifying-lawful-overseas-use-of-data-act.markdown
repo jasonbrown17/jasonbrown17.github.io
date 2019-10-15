@@ -2,7 +2,7 @@
 layout: post
 title:  "The Clarifying Lawful Overseas Use of Data (CLOUD) Act"
 categories: Privacy CLOUD Act
-featured_image: '/images/blog/cloudact.png'
+featured_image: "/images/blog/cloudact.png"
 ---
 
 ![](/images/blog/cloudact.png)
