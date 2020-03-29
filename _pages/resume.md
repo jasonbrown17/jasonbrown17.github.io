@@ -10,16 +10,15 @@ tags: [Jason Brown jason brown resume ciso Merit Network State of Michigan Ferri
 ----------------------------------------
 
 #### **Risk and Compliance Manager**
-[Aptiv Connected Services][aptiv]  
+[APTIV][aptiv]  
 [Allen Park, MI][ctaddr]  
 June 2018 - Present  
 
-•	Responsible for the development of Aptiv Connected Services governance, risk, and compliance program with an emphasis on NIST 800-30, NIST Cybersecurity Framework, CIS Top 20, and ISO 27001/27002.  
+•	Responsible for the development of APTIV's governance, risk, and compliance program with an emphasis on NIST 800-30, NIST Cybersecurity Framework, CIS Top 20, and ISO 27001/27002.  
 •	Function as the Data Privacy Officer for Connected Services, responsible for managing the divisions General Data Protection Regulation (GDPR) and California Consumer Protection Act (CCPA) programs.  
 •	Manage and mentor employees related to risk management, software development, and incident response.  
 •	Ensure the security of Connected Services software development, cloud-based server/serverless IT systems, PKI, and product lines.   
-•	Develop the divisions policies, standards, and procedures.  
-•	Use Agile methodology for project management.  
+•	Develop information technology policies, standards, and procedures.  
 
 ----------------------------------------
 
@@ -40,7 +39,7 @@ October 2015 - June 2018
 #### **Enterprise Security Architect**
 [State of Michigan][som]  
 [Lansing, MI][somaddr]  
-May 2013 - October 2015  
+March 2012 - October 2015  
 
 •	Perform key security roles in assisting state agencies in architecting new or existing systems, identify risks, and develop compensating controls and remediation plans.  
 •	Ensure agency systems met federal, state, and 3rd party regulatory compliance requirements.  
@@ -49,18 +48,7 @@ May 2013 - October 2015
 •	Co-chair of the Enterprise Audit team and a member of the PCI, Enterprise Architecture, Solution Design Team, and Medicaid Compliance Project core teams.  
 •	Conduct preliminary audits for the state’s IRS and Affordable Care Act programs to ensure they meet Publication 1075 and NIST SP 800-53 control objectives.  
 •	Develop continuing education for internal staff.  
-
-----------------------------------------
-
-#### **Network Security Architect**
-[State of Michigan][som]  
-[Lansing, MI][somaddr]  
-March 2012 - May 2013  
-
-•	Coordinated and developed strategic network security plans to protect the State of Michigan’s data, voice, and video traffic.  
-•	Ensured new and piloted State of Michigan projects met federal, state and third-party guidelines as part of the Enterprise Architecture core team.  
-•	Served as the telecommunications representative for PCI and IRS audit core teams.  
-•	Conducted internal departmental control evaluations using CobiT 4.1 governance framework.  
+•   Conducted Department of Technology, Management, and Budget control evaluations using CobiT 4.1 governance framework.
 
 ----------------------------------------
 
@@ -79,23 +67,13 @@ June 2010 - March 2012
 #### **Systems Administrator**
 [Ferris State University][fsu]  
 [Big Rapids, MI][fsuaddr]  
-July 2008 - June 2010  
+May 2007 - June 2010  
 
-•	Deployed hard drive and removable media encryption software to high risk users.  
+•	Lead high profile security projects which included multifactor authentication and full disk encryption.
+•   Deployed hard drive and removable media encryption software to high risk users.  
 •	Migrated the university’s LDAP servers while adding multimaster replication for high availability, SSL encryption, and roaming user home directories.  
 •	Developed new server builds based on industry standard security guidelines along with creating tools to streamline the process.  
 •	Supervised student employees who worked for the enterprise technology services department.  Responsible for assigning projects, mentoring, and giving yearly reviews to those employees.  
-
-----------------------------------------
-
-#### **Network Technician**
-[Ferris State University][fsu]  
-[Big Rapids, MI][fsuaddr]  
-May 2007 - July 2008  
-
-•	Responsible for installation and maintenance of the university’s internal and perimeter ﬁrewalls, IDS/IPS, load balancers and network access control.  
-•	Conﬁgured and maintained over 120 Nortel layer 2 and 3 switches, Nortel wireless switches, and 600 Nortel and Cisco wireless access points.  
-•	Lead projects for hard drive encryption, RSA two factor authentication, and web-based network statistical data.  
 
 ----------------------------------------
 
@@ -126,7 +104,6 @@ Graduated: May 2007
 [FBI InfraGard][infragard]  
 [ISC2][isc2]  
 [ISACA][isaca]  
-[IAPP][iapp]  
 
 ----------------------------------------
 
@@ -151,7 +128,6 @@ Graduated: May 2007
 [fsu]: https://ferris.edu/
 [fsuaddr]: https://goo.gl/maps/SWx6UU9pFxSCNwkM6
 [isaca]: https://isaca.org/
-[iapp]: https://iapp.org/
 [infragard]: https://www.infragard.org/
 [isc2]: https://www.isc2.org/
 [merit]: https://merit.edu/
