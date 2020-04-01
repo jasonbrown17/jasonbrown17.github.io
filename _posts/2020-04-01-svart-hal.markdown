@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Svart Hal"
+title:  "Svart Hal: The DNS Firewall"
 categories: Privacy DNS Malware URL Web Filtering
 date: "2020-04-01 00:00:00 -0400"
 featured_image: "/images/blog/svarthal.jpg"
 ---
 
-![Svart Hal](/images/blog/svarthal.jpg)
+![Svart Hal: The DNS Firewall](/images/blog/svarthal.jpg)
 
 With the unprecedented circumstances we as a society are facing, we have begun to transition from on-premise to a remote workforce. Though this transition is exciting to some, it can truly bring undue stress to an organization, its workforce, and IT infrastructure. Organizations that are new to a remote workforce struggle to ensure that their employees are practicing good cyber hygiene while at home. Ensuring that data is backed up and secured, employees using work devices instead of personal devices when working, and maintaining updated software and antivirus. Many of these systems are automated, pushing software and updates and may not be able to communicate with an employee end point remotely. 
 
