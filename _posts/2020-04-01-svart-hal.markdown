@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Svart Hal: The DNS Firewall"
-categories: Privacy DNS Malware URL Web Filtering
+categories: Privacy DNS Malware URL Web Filtering 
 date: "2020-04-01 00:00:00 -0400"
 featured_image: "/images/blog/svarthal.jpg"
 ---
