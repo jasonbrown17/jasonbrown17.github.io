@@ -1,8 +1,9 @@
 ---
 layout: post
+description: "How to architect ISC BIND within an organizaion"
 title:  "DNS Architecture"
 categories: Privacy DNS Malware URL Web Filtering 
-date: "2020-04-01 00:00:00 -0400"
+date: "2020-04-07 00:00:00 -0400"
 featured_image: "/images/blog/dns2.jpg"
 ---
 

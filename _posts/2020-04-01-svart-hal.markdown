@@ -1,5 +1,6 @@
 ---
 layout: post
+description: "Learn how Svart Hal: The DNS Firewall can protect your business"
 title:  "Svart Hal: The DNS Firewall"
 categories: Privacy DNS Malware URL Web Filtering 
 date: "2020-04-01 00:00:00 -0400"
