@@ -1,0 +1,28 @@
+---
+layout: post
+description: "Learn how Svart Hal: The DNS Firewall can protect your business"
+title:  "Svart Hal: The DNS Firewall"
+categories: Privacy DNS Malware URL Web Filtering 
+date: "2020-04-01 00:00:00 -0400"
+featured_image: "/images/blog/svarthal.jpg"
+---
+
+![Svart Hal: The DNS Firewall](/images/blog/svarthal.jpg)
+
+With the unprecedented circumstances we as a society are facing, we have begun to transition from on-premise to a remote workforce. Though this transition is exciting to some, it can truly bring undue stress to an organization, its workforce, and IT infrastructure. Organizations that are new to a remote workforce struggle to ensure that their employees are practicing good cyber hygiene while at home. Ensuring that data is backed up and secured, employees using work devices instead of personal devices when working, and maintaining updated software and antivirus. Many of these systems are automated, pushing software and updates and may not be able to communicate with an employee end point remotely. 
+
+Many organizations have an on-premise security stack where all traffic is funneled through. This would include all traffic which travels to and from the business network. A security stack could have a firewall, IDS/IPS, web filtering, antivirus mitigations, VPN, etc. While many organizations have these protections in place, it does not protect a remote workforce without the enforcement of every employee connecting to the VPN. This too places undue strain on the corporate network. Organizations which terminate a VPN connection on the perimeter firewall place additional stress on the device. Every encrypted connection placed on the firewall requires additional CPU and memory to encrypt/decrypt the connection. 
+
+Due to the additional strain on the network, companies have opted to have employees only connect to the VPN when accessing internal resources. While this frees up firewall resources, this places a significant burden on ensuring that employees are protected from security threats. As organizations scramble to better protect their remote employees they tend to lose sight of the big picture. The question ultimately becomes, “How can I protect our employees from security risks and do this in a cost effective manner?” 
+
+One way of protecting employees is through the use of a DNS firewall. Typical firewalls only block source/destination, port, and protocol traffic. A DNS firewall is synonymous with web filtering, taking care of blocking malicious URLs, protecting the employee from accessing websites which could push malware to the end point. There are plenty of utilities one can use to block these types of attacks. [Pi-Hole][pihole] and [OpenDNS][opendns] provide free and paid services to help mitigate these types of attacks. 
+
+I have been working on a project, called Svart Hal, which takes advantage of [ISC BIND’s][iscbind] [Response Policy Zones][dnsrpz] (RPZ). In the coming days I will post how an individual or organization can take advantage of the use of RPZ and the scripts which are provided free and Open Source. Users will be able to utilize this set up to save on the cost of spending hundreds or even thousands of dollars on traditional web filtering services. For those currently using RPZ with BIND, and looking for a inexpensive ways to protect your users, please take advantage.
+
+[Svart Hal on Github][svarthal]
+
+[dnsrpz]: https://www.dnsrpz.info/
+[iscbind]: https://www.isc.org/bind/
+[opendns]: https://www.opendns.com/
+[pihole]: https://pi-hole.net
+[svarthal]: https://github.com/Svart-Hal

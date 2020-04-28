@@ -1,4 +1,4 @@
-site: Jason Brown
+site:
 
 collections:
   pages:
@@ -41,14 +41,23 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
 plugins_dir:
   - jekyll-paginate
+
+url: "https://jasonbrown.us"
+plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+  - github-pages
 
 paginate: 5
 paginate_path: "/blog/page:num/"
-gems: [jekyll-paginate] 
+
+twitter:
+  twitter: card
+  twitter: jasonbrown17
