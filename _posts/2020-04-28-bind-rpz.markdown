@@ -1,0 +1,63 @@
+---
+layout: post
+description: "Response Policy Zones are a hidden gem within the BIND service, but how does it work?"
+title:  "BIND Reponse Policy Zone"
+categories: Privacy DNS Malware URL Web Filtering Svart Hal RPZ
+date: "2020-04-28 00:00:00 -0400"
+featured_image: "/images/blog/dns-rpz.jpg"
+---
+
+### Domain Name Service
+
+Accessing resources across the internet is done through the use of [IP addresses][ipaddress]. When trying to access your email, Google for searching, or your favorite social media outlet, you are making a connection to their IP address. The [Domain Name Service (DNS)][dns] converts a name to an IP address, allowing you to easily remember your favorite website. For instance, DNS will convert [www.amazon.com][amazon] to 89.187.178.56. Which one would you like to remember?
+
+Malicious actors rely on DNS too. From [malvertising][malvertising], [botnets][botnet], [ransomware][ransomware], [phishing][phishing], or websites laced with viruses, cybercriminals use DNS to lure unsuspected users to their servers. Once that user accesses a server that contains something malicious and inadvertently downloads it, the computer then becomes infected. Large to small organizations spend hundreds, if not thousands of dollars every year to protect themselves against these types of attacks. Response Policy Zones are one way of being able to set up a similar service and can be done for free!
+
+### Response Policy Zone
+
+Probably the best unknown feature of BIND is its use of Response Policy Zones (RPZ). RPZ’s allow an administrator to re-write a DNS query and send it back to the user. In the example above, when a user goes to access Amazon, DNS converts a name to a number. Once the web browser knows that number, it then reaches out to the server to access its resources. What if we were to manipulate that number, or make it where Amazon did not exist to our users?
+
+This is where the functionality of RPZ’s come in. By configuring BIND to receive a DNS recursive lookup and manipulate the response back to the user, you can effectively stop users from accessing malicious sites. 
+
+Let us look at the recent privacy and security concerns related to [Zoom][zoom]. Due to its popularity and ease of use, the Zoom video conferencing service has now become a front runner. Not only has [Zoombombing][zoombombing], where an uninvited user gains access to your video sharing stream, become a headache for the service but so has phishing websites. Recently, URL’s listed as [zoompanel.com][loopback] and [zoomdirect.com.au][loopback] have sprung up. These websites are used to phish a users Zoom credentials. We can use RPZ’s to block company personnel or home users from accessing those websites which mitigates the phishing attack.
+
+### How Do RPZ’s Work?
+
+![Hidden Primary RPZ](/images/blog/hidden_primary_rpz.jpg)
+
+When configured properly, a BIND RPZ zone file will return a different IP address than the one that is published out on the internet. The following will return a valid IP address for [zoomdirect.com.au][loopback].
+
+```
+nslookup zoomdirect.com.au 8.8.8.8
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	zoomdirect.com.au
+Address: 119.81.45.82
+```
+
+The query responded with the true IP address of 119.81.45.82. 
+
+What does a RPZ response look like?
+
+```
+ nslookup zoomdirect.com.au ns1.svarthal.net     
+Server:		ns1.svarthal.net 
+Address:	45.19.203.66#53
+
+** server can't find zoomdirect.com.au: NXDOMAIN
+```
+
+From the example above, the response has changed from 119.81.45.82 to NXDOMAIN. This means that the response came back with nothing effectively making the phishing server non-existent. 
+
+[amazon]: https://www.amazon.com
+[botnet]: https://en.wikipedia.org/wiki/Botnet
+[dns]: https://en.wikipedia.org/wiki/Domain_Name_System
+[ipaddress]: https://en.wikipedia.org/wiki/IP_address
+[loopback]: https://127.0.0.1
+[malvertising]: https://en.wikipedia.org/wiki/Malvertising
+[phishing]: https://en.wikipedia.org/wiki/Phishing
+[ransomware]: https://en.wikipedia.org/wiki/Ransomware
+[zoom]: https://www.zoom.us
+[zoombombing]: https://www.nytimes.com/2020/03/20/style/zoombombing-zoom-trolling.html

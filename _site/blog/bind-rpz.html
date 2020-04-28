@@ -1,0 +1,335 @@
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+<head>
+
+
+	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	jason brown
+
+	- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<!-- Page Info -->
+	<link rel="shortcut icon" href="/images/front/favicon.png">
+	<title>BIND Reponse Policy Zone – jason brown</title>
+	<meta name="description" content="Response Policy Zones are a hidden gem within the BIND service, but how does it work?">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="BIND Reponse Policy Zone – jason brown">
+	<meta name="twitter:description" content="Response Policy Zones are a hidden gem within the BIND service, but how does it work?">
+	<meta name="twitter:image:src" content="http://localhost:4000/images/blog/dns-rpz.jpg">
+
+	<!-- Facebook OpenGraph -->
+	<meta property="og:title" content="BIND Reponse Policy Zone – jason brown" />
+	<meta property="og:description" content="Response Policy Zones are a hidden gem within the BIND service, but how does it work?" />
+	<meta property="og:image" content="http://localhost:4000/images/blog/dns-rpz.jpg" />
+
+	
+	<!-- Font Embed Code -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+	
+
+	<!-- Styles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/css/style.css">
+
+	<!-- Icons -->
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/solid.js" integrity="sha384-GXi56ipjsBwAe6v5X4xSrVNXGOmpdJYZEEh/0/GqJ3JTHsfDsF8v0YQvZCJYAiGu" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/brands.js" integrity="sha384-0inRy4HkP0hJ038ZyfQ4vLl+F4POKbqnaUB6ewmU4dWP0ki8Q27A0VFiVRIpscvL" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.1.1/js/fontawesome.js" integrity="sha384-NY6PHjYLP2f+gL3uaVfqUZImmw71ArL9+Roi9o+I4+RBqArA2CfW1sJ1wkABFfPe" crossorigin="anonymous"></script>
+
+	
+	<!-- Custom Styles -->
+	<style></style>
+	
+
+	
+	<!-- Analytics Code -->
+	
+	
+
+	
+	<!-- Extra Header JS Code -->
+	
+	
+
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>BIND Reponse Policy Zone | jasonbrown17.github.io</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="BIND Reponse Policy Zone" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Response Policy Zones are a hidden gem within the BIND service, but how does it work?" />
+<meta property="og:description" content="Response Policy Zones are a hidden gem within the BIND service, but how does it work?" />
+<link rel="canonical" href="http://localhost:4000/blog/bind-rpz" />
+<meta property="og:url" content="http://localhost:4000/blog/bind-rpz" />
+<meta property="og:site_name" content="jasonbrown17.github.io" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-04-28T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/blog/bind-rpz","headline":"BIND Reponse Policy Zone","dateModified":"2020-04-28T00:00:00-04:00","datePublished":"2020-04-28T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/bind-rpz"},"description":"Response Policy Zones are a hidden gem within the BIND service, but how does it work?","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body class="loading ajax-loading" data-site-url="http://localhost:4000" data-page-url="/blog/bind-rpz">
+
+
+	<header class="header">
+
+	<div class="wrap">
+
+		
+		<a href="/" class="header__title">
+			jason brown
+		</a>
+		
+
+		<div class="menu">
+			<div class="menu__toggle js-menu-toggle">
+				<div class="menu__toggle__icon"><span></span></div>
+			</div>
+			<div class="menu__wrap">
+				<ul class="menu__list">
+					
+					<li class="menu__list__item">
+						<a href="/" class="menu__list__item__link">Home</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/blog/" class="menu__list__item__link">Blog</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/resume" class="menu__list__item__link">Resume</a>
+					</li>
+					
+					<li class="menu__list__item">
+						<a href="/gpg" class="menu__list__item__link">GPG Key</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</header>
+
+
+	<div class="loader"><svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="60" cy="15" r="9" fill-opacity="0.3"><animate attributeName="r" from="9" to="9" begin="0s" dur="0.8s" values="9;15;9" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="0.5" to="0.5" begin="0s" dur="0.8s" values=".5;1;.5" calcMode="linear" repeatCount="indefinite" /></circle><circle cx="105" cy="15" r="15"><animate attributeName="r" from="15" to="15" begin="0s" dur="0.8s" values="15;9;15" calcMode="linear" repeatCount="indefinite" /><animate attributeName="fill-opacity" from="1" to="1" begin="0s" dur="0.8s" values="1;.5;1" calcMode="linear" repeatCount="indefinite" /></circle></svg></div>
+
+	<div class="page-loader"></div>
+
+
+	<div class="page">
+
+		<div class="page__content" data-page-title="BIND Reponse Policy Zone – jason brown">
+
+			<section class="hero hero--single">
+
+	<div class="hero__image" style="background-image: url(/images/blog/dns-rpz.jpg)">
+		<div class="hero__overlay"></div>
+	</div>
+
+	<div class="wrap">
+
+		<h1>BIND Reponse Policy Zone</h1>
+		<p>28 April 2020</p>
+
+	</div>
+
+</section>
+
+<section class="single">
+
+	<div class="wrap">
+
+		<article class="single-post">
+
+			<h3 id="domain-name-service">Domain Name Service</h3>
+
+<p>Accessing resources across the internet is done through the use of <a href="https://en.wikipedia.org/wiki/IP_address">IP addresses</a>. When trying to access your email, Google for searching, or your favorite social media outlet, you are making a connection to their IP address. The <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name Service (DNS)</a> converts a name to an IP address, allowing you to easily remember your favorite website. For instance, DNS will convert <a href="https://www.amazon.com">www.amazon.com</a> to 89.187.178.56. Which one would you like to remember?</p>
+
+<p>Malicious actors rely on DNS too. From <a href="https://en.wikipedia.org/wiki/Malvertising">malvertising</a>, <a href="https://en.wikipedia.org/wiki/Botnet">botnets</a>, <a href="https://en.wikipedia.org/wiki/Ransomware">ransomware</a>, <a href="https://en.wikipedia.org/wiki/Phishing">phishing</a>, or websites laced with viruses, cybercriminals use DNS to lure unsuspected users to their servers. Once that user accesses a server that contains something malicious and inadvertently downloads it, the computer then becomes infected. Large to small organizations spend hundreds, if not thousands of dollars every year to protect themselves against these types of attacks. Response Policy Zones are one way of being able to set up a similar service and can be done for free!</p>
+
+<h3 id="response-policy-zone">Response Policy Zone</h3>
+
+<p>Probably the best unknown feature of BIND is its use of Response Policy Zones (RPZ). RPZ’s allow an administrator to re-write a DNS query and send it back to the user. In the example above, when a user goes to access Amazon, DNS converts a name to a number. Once the web browser knows that number, it then reaches out to the server to access its resources. What if we were to manipulate that number, or make it where Amazon did not exist to our users?</p>
+
+<p>This is where the functionality of RPZ’s come in. By configuring BIND to receive a DNS recursive lookup and manipulate the response back to the user, you can effectively stop users from accessing malicious sites.</p>
+
+<p>Let us look at the recent privacy and security concerns related to <a href="https://www.zoom.us">Zoom</a>. Due to its popularity and ease of use, the Zoom video conferencing service has now become a front runner. Not only has <a href="https://www.nytimes.com/2020/03/20/style/zoombombing-zoom-trolling.html">Zoombombing</a>, where an uninvited user gains access to your video sharing stream, become a headache for the service but so has phishing websites. Recently, URL’s listed as <a href="https://127.0.0.1">zoompanel.com</a> and <a href="https://127.0.0.1">zoomdirect.com.au</a> have sprung up. These websites are used to phish a users Zoom credentials. We can use RPZ’s to block company personnel or home users from accessing those websites which mitigates the phishing attack.</p>
+
+<h3 id="how-do-rpzs-work">How Do RPZ’s Work?</h3>
+
+<p><img src="/images/blog/hidden_primary_rpz.jpg" alt="Hidden Primary RPZ" /></p>
+
+<p>When configured properly, a BIND RPZ zone file will return a different IP address than the one that is published out on the internet. The following will return a valid IP address for <a href="https://127.0.0.1">zoomdirect.com.au</a>.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nslookup zoomdirect.com.au 8.8.8.8
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	zoomdirect.com.au
+Address: 119.81.45.82
+</code></pre></div></div>
+
+<p>The query responded with the true IP address of 119.81.45.82.</p>
+
+<p>What does a RPZ response look like?</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> nslookup zoomdirect.com.au ns1.svarthal.net     
+Server:		ns1.svarthal.net 
+Address:	45.19.203.66#53
+
+** server can't find zoomdirect.com.au: NXDOMAIN
+</code></pre></div></div>
+
+<p>From the example above, the response has changed from 119.81.45.82 to NXDOMAIN. This means that the response came back with nothing effectively making the phishing server non-existent.</p>
+
+
+
+		</article>
+
+	</div>
+
+</section>
+
+		</div>
+
+	</div>
+
+
+	<footer class="footer">
+
+	<div class="wrap">
+
+		<p class="footer__text"></p>
+
+		<div class="footer__copyright">
+			<span>© 2020 jason brown</span>
+		</div>
+
+		<ul class="socials">
+	
+	
+	<li class="socials__item">
+		<a href="https://www.facebook.com/jasonbrown17" target="_blank" class="socials__item__link" title="Facebook">
+			<i class="fab fa-facebook-f" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://twitter.com/jasonbrown17" target="_blank" class="socials__item__link" title="Twitter">
+			<i class="fab fa-twitter" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.youtube.com/channel/UCfT-hm4bhavIEG5X4aHHryA/videos?view_as=subscriber" target="_blank" class="socials__item__link" title="Youtube">
+			<i class="fab fa-youtube" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://github.com/jasonbrown17" target="_blank" class="socials__item__link" title="Github">
+			<i class="fab fa-github" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.reddit.com/user/jasonbrown17" target="_blank" class="socials__item__link" title="Reddit">
+			<i class="fab fa-reddit" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<li class="socials__item">
+		<a href="https://www.linkedin.com/in/jasonbrown17" target="_blank" class="socials__item__link" title="Linkedin">
+			<i class="fab fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</li>
+	
+	
+</ul>
+
+	</div>
+
+</footer>
+
+
+
+	<!-- Javascript Assets -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="/js/personal-min.js"></script>
+
+	
+	<!-- Extra Footer JS Code -->
+	
+	
+
+
+</body>
+
+</html>
